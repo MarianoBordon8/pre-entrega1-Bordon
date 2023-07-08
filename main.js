@@ -15,6 +15,9 @@ function validarRango(num, rangoMenor, rangoMayor) {
 
 //funcion que inicia el juego
 function iniciarJuego() {
+
+    alert("Bienvenido al juego de ¡¡Adivina el numero secreto!!\n Ingresa los limites y adivina el numero aleatorio. ")
+
     //creacion de variables
     let min = parseInt(prompt("Ingrese el limite menor: "));
     let max = parseInt(prompt("Ingrese el limite mayor: "));
